@@ -4,22 +4,9 @@ import Typography from "@material-ui/core/Typography";
 import { Container } from "@material-ui/core";
 import useStyles from "./styles";
 import { Link } from "react-router-dom";
-// import { ThemeProvider } from "react-bootstrap";
-// import { CryptoState } from "../CryptoContext";
 
 const Header = () => {
   const classes = useStyles();
-  // const { currency, setCurrency } = CryptoState();
-  // console.log("currency" , currency);
-  // const darkTheme = createTheme({
-  //   palette: {
-  //     primary: {
-  //       main: "#c09000",
-  //       padding: 0,
-  //     },
-  //     type: "dark",
-  //   },
-  // });
 
   return (
     <div>

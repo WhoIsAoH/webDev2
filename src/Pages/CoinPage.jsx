@@ -47,8 +47,6 @@ const CoinPage = () => {
         ) : (
           <>
             <Grid container spacing={2}>
-              {/* Left Side */}
-
               <Grid item xs={12} md={5}>
                 <Button className={classes.priceButton}>
                   <Link to={`/coin/${id}/price/history`} className={classes.white}>
@@ -56,7 +54,6 @@ const CoinPage = () => {
                   </Link>
                 </Button>
                 <div className={classes.leftSide}>
-                  {/* sidebar */}
                   <div className={classes.imgWrapper}>
                     <img className={classes.coinDetailImg} src={coinDetail?.iconUrl} />
                   </div>
